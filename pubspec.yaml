@@ -1,0 +1,47 @@
+name: riverpod_examples
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  flutter_riverpod: ^2.3.2
+  flutter_svg: ^1.1.5
+  device_info_plus: ^8.0.0
+  flutter_native_timezone: ^2.0.0
+  cached_network_image: ^3.2.3
+  shimmer: ^2.0.0
+  infinite_scroll_pagination: ^3.2.0
+  shared_preferences: ^2.0.20
+  scroll_to_index: ^3.0.1
+  scrollable_positioned_list: ^0.3.5
+  expandable: ^5.0.1
+  share_plus: ^6.3.1
+  map_launcher: ^2.5.0+1
+  hooks_riverpod: ^2.3.2
+  geolocator: ^9.0.2
+  location_geocoder: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/svg/
